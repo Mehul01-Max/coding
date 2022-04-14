@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Race Resigtration</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <h1>Race Marathon!</h1>
+    <form action="/Susccesful">
+        <div>
+            <label for="First Name">First Name:</label>
+            <input name="First Name" id="First Name" placeholder="First Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="Last Name">Last Name:</label>
+            <input name="Last Name" id="Last Name" placeholder="Last Name" required>
+        </div>
+        <h3>Select Race Type:</h3>
+        <div>
+            <p>
+                <input type="radio" name="Race Type" id="Fun Run 5k" required>
+                <label for="Fun Run 5k">Fun Run 5k</label>
+            </p>
+            <p>
+                <input type="radio" name="Race Type" id="Half Marathon" required>
+                <label for="Half Marathon">Half Marathon</label>
+            </p>
+            <p>
+                <input type="radio" name="Race Type" id="Full Marathon" required>
+                <label for="Full Marathon">Full Marathon</label>
+            </p>
+        </div>
+        <table>
+            <div>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="Email"></td>
+                </tr>
+            </div>
+            <br>
+            <div>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="Password" id="Password" placeholder="Password"></td>
+                </tr>
+            </div>
+        </table>
+        <br>
+        <div>
+            <label for="age group">age group:</label>
+            <select id="age group">
+                <option value="under 10">--Please Select an option--</option>
+                <option value="under 10">Under 10</option>
+                <option value="under 10">Under 19</option>
+                <option value="under 10">Under 32</option>
+            </select>
+        </div>
+        <br>
+        <button>Register</button>
+    </form>
+
+</body>
+
+</html>

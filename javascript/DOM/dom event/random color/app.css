@@ -1,0 +1,22 @@
+
+
+body {
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    
+    flex-wrap: wrap; 
+
+}
+
+h1 {
+    display: flex;
+    /* margin: 0 100%; */
+    flex-basis: 100%;
+    justify-content: center;
+    
+} 
+
+
+
+
